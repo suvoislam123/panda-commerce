@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
               <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,14 +21,14 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Products</a>
+                    <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
                   
                   <li class="nav-item">
-                    <a class="nav-link">About Us</a>
+                    <a class="nav-link" href="#backpacks">Backpacks</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link">Contract Us</a>
+                    <a class="nav-link" href="#contract">Contract Us</a>
                   </li>
                 </ul>
                 
@@ -119,8 +119,8 @@
             
         </div>
     </section>
-    <section class="container my-5">
-        <h3>Showes</h3>
+    <section class="container my-5" id="shoes">
+        <h3>Shoes</h3>
         <div class="row g-5">
             <div class="col-lg-4">
                 <div class="card border-0 shadow-lg">
@@ -160,7 +160,7 @@
             </div>
         </div>
     </section>
-    <section class="container my-5">
+    <section class="container my-5" id="backpacks">
         <h3>Backpacks</h3>
         <div class="row g-5">
             <div class="col-lg-4">
@@ -201,6 +201,19 @@
             </div>
         </div>
     </section>
+    <section id="contract" style="height: 400px;" class="container bg-info d-flex justify-content-center align-items-center my-5 rounded-3">
+        <div>
+            <h1>LET'S STAY IN TOUCH</h1>
+            <p>Get updates on sales, specials and more</p>
+            <input type="text">
+            <br>
+            <br>
+            <button class="btn btn-warning">Submit</button>
+        </div>
+    </section>
+    <footer>
+        <p class="text-center"><small>&copy;2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
+    </footer>
     
 
     <script src="js/bootstrap.bundle.js"></script>
