@@ -196,7 +196,7 @@
                       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </div>
                     <div class="m-3">
-                      <button class="btn btn-danger">Buy Now</button>
+                      <button onclick="consoleWritter()" class="btn btn-danger">Buy Now</button>
                     </div>
                   </div>
             </div>
@@ -204,12 +204,12 @@
     </section>
     <section id="contract" style="height: 400px;" class="container bg-main d-flex justify-content-center align-items-center my-5 rounded-3">
         <div>
-            <h1>LET'S STAY IN TOUCH</h1>
+            <h1 id="let-stay-in-touch">LET'S STAY IN TOUCH</h1>
             <p>Get updates on sales, specials and more</p>
-            <input type="text">
+            <input type="text" id="footer-input">
             <br>
             <br>
-            <button class="btn btn-warning">Submit</button>
+            <button class="btn btn-warning" id="footer-submit-btn" disabled>Submit</button>
         </div>
     </section>
     <footer>
@@ -218,5 +218,6 @@
     
 
     <script src="js/bootstrap.bundle.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
